@@ -1,0 +1,42 @@
+{
+  "name": "ncm-client",
+  "version": "1.0.0",
+  "description": "maid in 彦斋",
+  "main": "./out/main/index.js",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "build:win": "electron-vite build && electron-builder --win portable"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "electron": "^35.2.1",
+    "electron-builder": "^26.0.12",
+    "electron-vite": "^3.1.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.3",
+    "vue-tsc": "^2.2.8"
+  },
+  "build": {
+    "appId": "com.yukimomo.ncm-client",
+    "productName": "maid in 彦斋",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "out/**/*",
+      "icon/**/*"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "icon/maid in 彦斋.png",
+      "artifactName": "maid-in-彦斋-portable.${ext}",
+      "signAndEditExecutable": false
+    }
+  }
+}

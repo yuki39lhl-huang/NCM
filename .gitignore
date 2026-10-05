@@ -1,0 +1,7 @@
+ncm/
+output/
+desktop/node_modules/
+desktop/out/
+desktop/dist/
+*.log
+.cursor/

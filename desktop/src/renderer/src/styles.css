@@ -1,0 +1,58 @@
+:root {
+  color: #ffffff;
+  background: #121212;
+  font-family: "Microsoft YaHei UI", "Segoe UI", sans-serif;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  height: 100%;
+  background: #121212;
+}
+
+button,
+input {
+  font: inherit;
+  color: #ffffff;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 0;
+  border-radius: 999px;
+  background: #2a2a2a;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: #3a3a3a;
+}
+
+button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+button.primary {
+  background: #ec3b48;
+}
+
+button.primary:hover:not(:disabled) {
+  background: #d63636;
+}
+
+button.primary:disabled {
+  opacity: 1;
+  background: #7a3030;
+}
