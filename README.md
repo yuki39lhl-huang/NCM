@@ -8,9 +8,9 @@
 
 不需要安装 Node.js 或 Electron，下载后双击即可使用。
 
-[下载 Windows 便携版 exe](https://github.com/yuki39lhl-huang/NCM-/releases/download/v1.0.0/maid-in-%E5%BD%A6%E6%96%8B-portable.exe)
+[下载 Windows 便携版 exe](https://github.com/yuki39lhl-huang/NCM-/releases/download/v1.0.0/maid-in-portable.exe)
 
-也可以从 [Releases](https://github.com/yuki39lhl-huang/NCM-/releases/latest) 页面下载 `maid-in-彦斋-portable.exe`。
+也可以从 [Releases](https://github.com/yuki39lhl-huang/NCM-/releases/latest) 页面下载 `maid-in-portable.exe`。
 
 第一次打开时，Windows 可能提示未知发布者，选择仍要运行。
 
