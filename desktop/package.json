@@ -35,7 +35,7 @@
     "win": {
       "target": "portable",
       "icon": "icon/maid in 彦斋.png",
-      "artifactName": "maid-in-彦斋-portable.${ext}",
+      "artifactName": "maid in 彦斋.${ext}",
       "signAndEditExecutable": false
     }
   }

@@ -8,9 +8,9 @@
 
 不需要安装 Node.js 或 Electron，下载后双击即可使用。
 
-[下载 Windows 便携版 exe](https://github.com/yuki39lhl-huang/NCM-/releases/download/v1.0.0/maid-in-portable.exe)
+[下载 Windows 便携版](https://github.com/yuki39lhl-huang/NCM-/releases/download/v1.0.0/maid-in-portable.zip)
 
-也可以从 [Releases](https://github.com/yuki39lhl-huang/NCM-/releases/latest) 页面下载 `maid-in-portable.exe`。
+也可以从 [Releases](https://github.com/yuki39lhl-huang/NCM-/releases/latest) 页面下载 `maid-in-portable.zip`。解压后的程序是 `maid in 彦斋.exe`，双击即可使用。GitHub 不能保留带空格和中文的下载文件名，所以发布页上的压缩包用了英文名。
 
 第一次打开时，Windows 可能提示未知发布者，选择仍要运行。
 
@@ -49,4 +49,4 @@ $env:ELECTRON_BUILDER_BINARIES_MIRROR="https://npmmirror.com/mirrors/electron-bu
 npm run build:win
 ```
 
-打包结果在 `desktop/dist/maid-in-彦斋-portable.exe`。
+打包结果在 `desktop/dist/maid in 彦斋.exe`。
